@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import  mongoose  from "mongoose";
 
 import userRoutes from './routes/users.js'; 
-import questionRoutes from './routes/questions.js';
+import questionRoutes from './routes/Questions.js';
 import answerRoutes from  './routes/answers.js';
 
 const app = express();
