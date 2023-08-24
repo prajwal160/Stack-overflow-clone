@@ -44,7 +44,7 @@ const Navbar = ({ handleSlideIn }) => {
           <Link to="/" className="nav-item nav-logo">
             <img src={logo} alt="logo" />
           </Link>
-          <Link to="/" className="nav-item nav-btn res-nav">
+          {/* <Link to="/" className="nav-item nav-btn res-nav">
             About
           </Link>
           <Link to="/" className="nav-item nav-btn res-nav">
@@ -52,7 +52,7 @@ const Navbar = ({ handleSlideIn }) => {
           </Link>
           <Link to="/" className="nav-item nav-btn res-nav">
             For Teams
-          </Link>
+          </Link> */}
           <form>
             <input type="text" placeholder="Search..." />
             <img src={search} alt="search" width="18" className="search-icon" />
